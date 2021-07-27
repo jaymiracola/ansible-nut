@@ -1,7 +1,7 @@
 ---
 
 - name: Install nut
-  apt:
+  yum:
     name: nut
     state: present
     update_cache: true
